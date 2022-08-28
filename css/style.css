@@ -6,3 +6,132 @@
 
 /* -----------fonts---------- */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+/* -------top banner--------------- */
+.title {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.top-banner {
+    display: flex;
+    width: 100%;
+    margin-top: 5em;
+    margin-bottom: 60px;
+
+}
+
+.top-banner-description {
+    width: 50%;
+    margin-top: 5em;
+    padding-left: 50px;
+}
+
+p {
+    font-size: 15px;
+    color: gray;
+}
+
+.top-banner-image {
+    width: 50%;
+    position: relative;
+}
+
+.top-banner-image img {
+    width: 70%;
+    padding-left: 30px;
+}
+
+.top-image {
+    position: relative;
+    z-index: 1;
+}
+
+.position-image {
+    position: absolute;
+    top: -0px;
+    left: 0px;
+}
+
+button {
+    border: none;
+    padding: 5px 10px;
+    background-color: tomato;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.anchor-button {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.fa-arrow-right {
+    color: white;
+    margin-left: 3px;
+}
+
+/* -----------top banner end---------- */
+
+/* -----company logo styles---------- */
+.logos {
+    display: flex;
+    width: 75%;
+    padding: 20px;
+
+}
+
+.logo-item img {
+    width: 70%;
+}
+
+hr {
+    width: 75%;
+    border: 1px solid lightgray;
+}
+
+/* -----------logo end--------- */
+
+/* ------------popular collection start----------- */
+.popular-section-title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.cards-section {
+    margin-top: 50px;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 700px;
+
+}
+
+.card {
+    height: 320px;
+    box-shadow: 3px 3px 3px 3px gray;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.cards img {
+    width: 100%;
+}
+
+.ratings {
+    display: flex;
+    margin-bottom: 15px;
+    font-size: .80em;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+
+.icon-color {
+    color: goldenrod;
+}
