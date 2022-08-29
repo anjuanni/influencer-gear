@@ -24,7 +24,7 @@
 .top-banner-description {
     width: 50%;
     margin-top: 5em;
-    padding-left: 50px;
+    padding-left: 3em;
 }
 
 p {
@@ -96,25 +96,27 @@ hr {
 
 /* ------------popular collection start----------- */
 .popular-section-title {
-    margin-bottom: 30px;
+    margin-bottom: 1.5em;
     text-align: center;
 }
 
 .cards-section {
-    margin-top: 50px;
+    margin-top: 3em;
+    margin-bottom: 5em;
 }
 
 
 .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    width: 700px;
+    gap: 1em;
+    width: 70%;
+    grid-row-gap: 3em;
 
 }
 
 .card {
-    height: 320px;
+    height: 100%;
     box-shadow: 3px 3px 3px 3px gray;
     padding: 10px;
     border-radius: 8px;
@@ -134,4 +136,96 @@ hr {
 
 .icon-color {
     color: goldenrod;
+}
+
+/* --------------featured styles-------------------- */
+.featured-part {
+    width: 80%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-bottom: 3em;
+}
+
+.featured-main {
+    display: flex;
+}
+
+.featured-image {
+    width: 50%;
+}
+
+.featured-image img {
+    width: 80%;
+    padding-left: 1.5em;
+}
+
+.featured-description {
+    width: 50%;
+}
+
+/* -----------featured styles finish------- */
+
+/*------------ footer style--------------- */
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+.social-icons {
+    padding: 5px;
+}
+
+/* ------------media query for small devices---------- */
+@media screen and (max-width:688px) {
+    .top-banner {
+        flex-direction: column-reverse;
+    }
+
+    .top-banner-description {
+        width: 80%;
+        padding-left: 0px;
+    }
+
+    .top-banner-image {
+        width: 100%;
+    }
+
+    .logos {
+        flex-wrap: wrap;
+        width: 80%;
+        padding: 10px;
+    }
+
+    hr {
+        width: 80%;
+    }
+
+    .logo-item img {
+        width: 60%;
+    }
+
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .featured-main {
+        flex-direction: column;
+    }
+
+    .featured-image {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .featured-image img {
+        padding-left: 1em;
+    }
+
+    .featured-description {
+        width: 70%;
+        padding-top: 1em;
+
+    }
 }
